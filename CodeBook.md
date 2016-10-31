@@ -1,4 +1,4 @@
-CODEBOOK FOR UCI HAR DATASET (averages)
+##CODEBOOK FOR UCI HAR DATASET (averages)##
 
 SUMMARY: This is a codebook for an independent dataset derived from the UCI HAR dataset that contains observations of averages of means and standard deviations from each subject and activity combination.  In the original dataset experiements were carried out by a total of 30 volunteers wearing a smartphone who were given various activities.  The phone's internal gyroscope and accelerometer captured data based on the readings from these tools.  It is presented in the "narrow" form with only 4 columns. Each variable forms one column and each observation coressponds to one row. Variables include the subject conducting the tests, the activity, the variable being measured, and its respective value. 
 
