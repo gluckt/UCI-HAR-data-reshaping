@@ -10,5 +10,7 @@ There is only one script (run_analysis.R) that does all the analysis on the prov
 It combines and organizes the training and test data into one dataset. It then selects measurements of mean or standard deviation and creates an independent dataset of averages of the selected means and standard deviations for each combination of subject and activity. This new dataset meets the tidy data standards as described in Hadley Wickham's [Tidy Data](http://example.com/ "Title")<sup>[1]</sup>.
 
 
+Note that is it in the "narrow" form as opposed to the "wide" form. Although the "wide" form may be more popular this still adheres to the requirements for tidy data as each column coressponds to one variable and each row is one observation.
+
 1. Wickham, Hadley. Tidy Data. Tech. American Statistical Association, n.d. Web.
   
