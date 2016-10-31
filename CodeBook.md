@@ -2,11 +2,11 @@ CODEBOOK FOR UCI HAR DATASET (averages)
 
 SUMMARY: This is a codebook for an independent dataset derived from the UCI HAR dataset that contains observations of averages of means and standard deviations from each subject and activity combination.  In the original dataset experiements were carried out by a total of 30 volunteers wearing a smartphone who were given various activities.  The phone's internal gyroscope and accelerometer captured data based on the readings from these tools.  It is presented in the "narrow" form with only 4 columns. Each variable forms one column and each observation coressponds to one row. Variables include the subject conducting the tests, the activity, the variable being measured, and its respective value. 
 
-Subject	1
+1. Subject	
 	* ID corresponding to one of 30 participants
 		* Numeric values (1-30)
 	
-Activity	2
+2. Activity	
 	* Indicates action being performed
 		* WALKING
 		* WALKING_UPSTAIRS
@@ -15,14 +15,13 @@ Activity	2
 		* STANDING
 		* LAYING
 
-variable	3
+3. variable	
 	* Type of variable being measured
-	
 	* Prefix: t - time domain, f - frequency domain (FFT)
 	* Body/Gravity: linear acceleration due to body/gravity
 	* Acc/Gyro/Jerk: acceleration, angular velocity, jerk
 	* Mag: magnitude of 3D signal calculated using Euclidean norm
-	* mean()/std()/meanFreq(): mean, standard deviation, mean 	frequency
+	* mean()/std()/meanFreq(): mean, standard deviation, mean frequency
 	* X,Y,Z: 3 axial signals/directions
 		* tBodyAcc-mean()-X,Y,Z                        
 		* tBodyAcc-std()-X,Y,Z       
@@ -65,8 +64,8 @@ variable	3
 		* fBodyBodyGyroJerkMag-mean()   
 		* fBodyBodyGyroJerkMag-std() 
 		* fBodyBodyGyroJerkMag-meanFreq()
-
-mean		4
+		
+4. mean		
 	* Numeric value of mean of each measurement
 	* Acc signals are measured in standard gravity units (g)
 	* Gyro signals are measured in radians/second
