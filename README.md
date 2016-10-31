@@ -7,7 +7,7 @@ This repo contains the following files:
   * /README.md: this
   
 There is only one script (run_analysis.R) that does all the analysis on the provided UCI HAR Dataset. 
-It combines and organizes the training and test data and generates a data text file of an independent dataset that meets the tidy data standards as described in Hadley Wickham's "Tidy Data"<sup>[1]</sup>.
+It combines and organizes the training and test data into one dataset. It then selects measurements of mean or standard deviation and creates an independent dataset of averages of the selected means and standard deviations for each combination of subject and activity. This new dataset meets the tidy data standards as described in Hadley Wickham's [Tidy Data](http://example.com/ "Title")<sup>[1]</sup>.
 
 
 1. Wickham, Hadley. Tidy Data. Tech. American Statistical Association, n.d. Web.
