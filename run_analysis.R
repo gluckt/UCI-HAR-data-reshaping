@@ -1,6 +1,7 @@
 ## Thomas Glucksman
 ## function : run_analysis()  
 ## performs analysis on UCI HAR Dataset and generates a new independent, tidy dataset ready for analysis
+## To run properly this script must be in the same directory as the UCI HAR Dataset folder
 run_analysis <- function() {
     #load necessary libraries
     library(dplyr); library(reshape2); library(doBy)
